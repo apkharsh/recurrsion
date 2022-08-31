@@ -27,9 +27,9 @@ void print2(int N){
 int main(){
     /*Write your code here*/
     int n; cin >> n;
-    print(n);
-    cout << endl;
     print2(n);
+    // cout << endl;
+    // print2(n);
 
     return 0;
 }

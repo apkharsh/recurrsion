@@ -16,7 +16,8 @@ void sort(vector<int> &arr)
     return;
 }
 
-// Insert the value in the sorted array
+// I
+t the value in the sorted array
 vector<int> insert(vector<int> &arr, int temp)
 {
     // if the element we are trying to insert is greater than the last element in the array or if the array is empty then we are gonna push_back the element directly
@@ -28,7 +29,7 @@ vector<int> insert(vector<int> &arr, int temp)
     int last = arr[arr.size() - 1];
     arr.pop_back();
     arr = insert(arr, temp);
-    arr.push_back(last);
+    arr.push_back(last); 
     return arr;
 }
 int main()
