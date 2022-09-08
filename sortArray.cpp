@@ -16,8 +16,7 @@ void sort(vector<int> &arr)
     return;
 }
 
-// I
-t the value in the sorted array
+// store the value in the sorted array
 vector<int> insert(vector<int> &arr, int temp)
 {
     // if the element we are trying to insert is greater than the last element in the array or if the array is empty then we are gonna push_back the element directly
